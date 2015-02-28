@@ -10,7 +10,7 @@
 
 % Display a menu and get a choice
 choice = menu('Choose an option', 'Exit Program', 'Load Image', ...
-    'Display Image','Invert','Add Noise');  
+    'Display Image');  
  
 % Choice 1 is to exit the program
 while choice ~= 1
@@ -21,7 +21,7 @@ while choice ~= 1
            disp('Error - please choose one of the options.')
            % Display a menu and get a choice
            choice = menu('Choose an option', 'Exit Program', 'Load Image', ...
-             'Display Image','Invert','Add Noise');  % as you develop functions, add buttons for them here
+             'Display Image');  % as you develop functions, add buttons for them here
        
        
        case 2
@@ -71,5 +71,5 @@ while choice ~= 1
    end
    % Display menu again and get user's choice
    choice = menu('Choose an option', 'Exit Program', 'Load Image', ...
-    'Display Image', 'Invert','Add Noise');  % as you develop functions, add buttons for them here
+    'Display Image', 'Invert Image','Add Noise');  % as you develop functions, add buttons for them here
 end
